@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#main-navbar{
+    background-color: #ffeaf5;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    font-family: poppins;
+    padding: 0px;
+    margin:0px;
+    height: 10vh;
+    gap:40px;
+}
+#main-navbar img{
+    height: 200%;
+}
+#main-navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#3a6ea5;
+    transition:font-size 0.3s ease;
+    font-weight: 600;
+}
+#main-navbar a:hover{
+    font-size:24px;
+}
